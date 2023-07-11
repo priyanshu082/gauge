@@ -1,0 +1,88 @@
+.section1{
+    background-color:rgb(19, 18, 62);
+    color: white;
+    margin-top: 0px;
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 600px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.gradient{
+    background-image: linear-gradient(to right, #e94c95, #cf27a0,#e8650e,rgb(236, 163, 106));
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    color: transparent;
+}
+
+.right{
+    font-family: sans-serif;
+    line-height: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.right-1{
+    height: 200px;
+    width: 600px;
+    word-spacing: 0px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.right-2{
+    margin-top: 120px;
+    text-align: center;
+    line-height: 20px;
+    width: 600px;
+    font-size: 16px;
+    color: gray;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.right-3{
+    padding-left: 33px;
+    color:rgb(189, 189, 189);
+}
+
+.btn-div{
+    
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn{
+    border: none;
+    border-radius: 50px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    font-size: 19px;
+    background-color: rgb(37, 130, 244);
+    width: 38%;
+    transition: transform s ease;
+}
+
+.btn:hover{
+    background-color:rgb(34, 91, 177);
+    cursor: pointer;
+   
+}
+
+.leftpik{
+   margin-left: 100px; 
+   transition: transform 0.5s ease;
+
+}
+
+.leftpik:hover{
+transform: translateY(-3px);
+
+}
