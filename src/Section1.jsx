@@ -5,7 +5,7 @@ export const Section1 = () => {
   return (
     <section className='section1'> 
        <div className='leftpik'>
-        <img src={pik} height={530} width={530}/>
+        <img src={pik} alt='photo' height={530} width={530}/>
        </div>
        <div className='right'>
         <div className='right-1'>

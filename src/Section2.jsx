@@ -8,7 +8,7 @@ export const Section2 = () => {
         <div className='section2'>
             <div className='left'>
                 <div className='left-1'>
-                    <img src={bluetick} height={18} width={18} className='bluetick-section2' />
+                    <img src={bluetick} alt='tick' height={18} width={18} className='bluetick-section2' />
                     <p>Customer Need's Above All Else</p>
                 </div>
 
@@ -26,7 +26,7 @@ export const Section2 = () => {
 
 
                 <div className='left-4'>
-                    <img src={tick} />
+                    <img src={tick} alt='tick'/>
                     <div className='left-4-sub'>
                         <span className='left-4-supersub'>
                             Smart Water Purifier With Self Servicing Capability
@@ -38,7 +38,7 @@ export const Section2 = () => {
 
                 </div>
                 <div className='left-4'>
-                    <img src={tick} />
+                    <img src={tick} alt='tick' />
                     <div className='left-4-sub'>
                         <span className='left-4-supersub'>
                             Compensation For Service Delays
@@ -56,7 +56,7 @@ export const Section2 = () => {
 
 
             <div className='rightpik'>
-                <img src={pik2} height={700} width={660} />
+                <img src={pik2} alt='photo' height={700} width={660} />
             </div>
 
 
