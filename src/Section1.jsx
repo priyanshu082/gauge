@@ -9,7 +9,7 @@ export const Section1 = () => {
        </div>
        <div className='right'>
         <div className='right-1'>
-         <p>Guage Water Purifier <span className='gradient'>Puts An End</span> To RO Service Pain</p>
+         <span>Guage Water Purifier <span className='gradient'>Puts An End</span> To RO Service Pain</span>
         </div>
         <div className='right-2'>
         Fully automatic water purifier provides the highest water savings while ensuring a seamless service experience.
